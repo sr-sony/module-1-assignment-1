@@ -16,19 +16,23 @@ body{
 .header-heading{
     font-size: 42px;
     font-weight: 700;
+    padding: 0;
+    margin: 0
 }
 .heading-one{
     padding-top: 0px;
-    margin-top: 0;
 }
 
 .heading-two{
     padding-top: 0px;
-    margin-top: 0;
+    margin-top: -10px;
 }
 
 .header-paragraph{
     font-size: 18px;
+    /* font-weight: 700; */
+    color: #fff;
+    padding-bottom: 15px;
 }
 
 .header-banner{
@@ -61,7 +65,7 @@ body{
 }
 
 .middle-amount-tab{
-    padding: 30px;
+    padding: 70px;
 }
 
 
@@ -120,6 +124,46 @@ body{
     border-radius: 5px;
 }
 
+.fund{
+    padding: 70px 150px;
+}
+
+.full-fund{
+    display: flex;
+    text-align: center;
+}
+
+.fund-collected{
+    background-color: red;
+    margin-left: 20px;
+}
+
+.fund-distributed{
+    background-color: blue;
+    padding: 20px;
+}
+.fund-text{
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: azure;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fund-text-header{
+    font-size: 36px;
+}
+
+.fund-text-para{
+    color:#AA9F9F;
+}
+
+.fund-total-taka{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
 .update{
     padding: 120px 250px;
 }
@@ -130,7 +174,7 @@ body{
 }
 
 .update-text{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .update-bg{
